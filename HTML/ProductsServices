@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Project 3</title>
+<link rel="stylesheet" href="../CSS/Styles.css">
+<script src="../JavaScript/Java" defer></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<body>
+
+<header>
+	<h1>Fun Pokemon facts about Games I played</h1>
+</header>
+
+<main>
+<section>
+    <h2>The Games sizes and maps</h2>
+	<p>All of the pokemon games in the same generation Share the same map. If you go from generation 1 to generation 2 the map will change. Along with the pokemon that are availble to catch. That what makes playing the new games so much fun. With the amount of pokemon you can collect increasing as games are released. In total as of the latest realease the amount of pokemon is 1025.</p>
+	<img src="../Images/annie-spratt-AFB6S2kibuk-unsplash.jpg" alt="Pile of Maps layed out on table">
+    <p>Photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Annie Spratt</a> </p>
+</section>
+<section>
+    <h2>Personal Prefences</h2>
+<p>Here is a list of a few  pokemon games in the order I enjoyed them. It does not list all of the games but these are the ones that are in my top 3. The reason I listed both diamond and pearl is because they are mostly the same game but with a few different pokemon availble.</p>
+<ol>
+	<li>Soul Silver</li>
+	<li>Fire Red</li>
+	<li>Diamond and Pearl</li>
+</ol>
+</section>
+<section>
+	<h2>More Info on the game series</h2>
+<p>I wanted to link the pokemon website below so you can look into current generation games. It also offers fun merchendise as well as a card game. On the website you can also look at the past pokemon games that have come out. As well as a current list of all the pokemon that are able to be caught. </p>
+<p><a href="https://www.pokemon.com/us">Pokemon official website</a></p>
+</section>
+    <h2>Data on the first games to come out on the Gameboy</h2>
+	<p>Here is a list of the first generation of pokemon games and if I was able to play them. The reason I was not able to play pokemon blue was I could never find a copy of the game. I was able to get a virtual copy of it on the 3ds but that was virtual console so I dont think it counts.</p>
+<table>
+	<Caption>Pokemon Games</Caption>
+	<tr>
+		<th>Name of the Game</th>
+		<th>Release Date</th>
+		<th>Did I play it</th>
+	</tr>
+	<tr>
+		<td>Red</td>
+		<td>September 30th 1998</td>
+		<td>Yes</td>
+	</tr>
+	<tr>
+		<td>Blue</td>
+		<td>September 30th 1998</td>
+		<td>No</td>
+	</tr>
+	<tr>
+		<td>Yellow</td>
+		<td>September 12th 1998</td>
+		<td>Yes</td>
+	</tr>
+</table>
+
+
+<form id="Game">
+      <label for="favoriteGame"> Please fill out your Favorite Game in this form:</label>
+      <input type="text" id="favoriteGame" name="favoriteGame">
+      <input type="submit" value="Submit">
+
+</form>
+
+<p id="msg"></p>
+</main>
+<footer>
+<nav>
+	<p>Navigation</p>
+	<a href="../index.html">Index,</a>
+    <a href="../html/project2.html">Project2</a>
+    <a href="../html/project3.html">Project3</a>
+
+</nav>
+</footer>
+</body>
+</html>
