@@ -1,7 +1,7 @@
 
 
 body{
-    background-color:  lightgreen;
+    background-color: #d1ffbd;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,7 +14,7 @@ h1{
     padding: 5px;
     font-family: Arial;
     font-size: 28px;
-    color: #ffff00;
+    color: black;
 }
 
 
@@ -23,13 +23,13 @@ h2{
     padding: 5px;
     font-family: Arial;
     font-size: 22px;
-    color: #ffff00;
+    color: black;
 }
 
 p{
     font-family: Arial;
     font-size: 18px;
-    color: #ffff00;
+    color: black;
 }
 
 table{
@@ -37,7 +37,7 @@ table{
     margin-right: auto; 
     border: 2px solid gray; 
     text-align: center;
-    color: #ffff00;
+    color: black;
 
 }
 
@@ -48,18 +48,18 @@ img{
 }
 
 a{
-    color:white;
+    color: black;
 }
 
 
 a:hover{
-    color: hotpink;
+    color: black;
     text-decoration: underline;
 
 }
 
 li{
-    color: #ffff00;
+    color: black;
 }
 
 ol{
@@ -69,7 +69,7 @@ ol{
 }
 
 form{
-    color: #ffff00;
+    color: black;
 }
 
 @media (max-width: 768px){
