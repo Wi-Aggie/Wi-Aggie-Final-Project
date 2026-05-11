@@ -1,14 +1,14 @@
-let Game = document.querySelector("#Game");
+let Form = document.querySelector("#Form");
 const display = document.getElementById('msg'); 
-Game.addEventListener("submit", checkForm, );
+Form.addEventListener("submit", checkForm, );
 
 
 function checkForm(event) {
-   Game.favoriteGame.style.backgroundColor = "LightGreen";
+   Form.contactInfo.style.backgroundColor = "LightGreen";
    
 
-   if (Game.favoriteGame.value === "") {
-      Game.favoriteGame.style.backgroundColor = "Orange";
+   if (Form.contactInfo.value === "") {
+      Form.contactInfo.style.backgroundColor = "Orange";
       display.textContent = "";
       event.preventDefault();
    }
@@ -19,13 +19,13 @@ function checkForm(event) {
 function showSuccessMessage(event){
     event.preventDefault();
 
-    if(Game.favoriteGame.value != ""){
-      display.textContent = "Thats a good Game";
+    if(Form.contactInfo.value != ""){
+      display.textContent = "We Have recived you info and will contact you soon!";
       display.style.color = "Green";
     }
     
 }
 
-const form = document.getElementById('Game');
+const form = document.getElementById('Form');
 form.addEventListener('submit', showSuccessMessage)
 
