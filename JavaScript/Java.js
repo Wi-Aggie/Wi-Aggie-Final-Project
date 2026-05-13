@@ -20,7 +20,7 @@ function showSuccessMessage(event){
     event.preventDefault();
 
     if(Form.contactInfo.value != ""){
-      display.textContent = "We Have recived you info and will contact you soon!";
+      display.textContent = "We Have recived you're info and will contact you soon!";
       display.style.color = "Green";
     }
     
